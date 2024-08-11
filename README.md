@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Colombia API
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descripción
 
-## Available Scripts
+**Colombia API** es una aplicación web desarrollada en React que permite a los usuarios explorar y visualizar información sobre presidentes, aeropuertos y atracciones turísticas en Colombia. La aplicación utiliza la API de Colombia para obtener datos actualizados y organiza la información en vistas tabuladas, facilitando la navegación y el acceso a los datos.
 
-In the project directory, you can run:
+### Funcionalidades principales
 
-### `npm start`
+- **Vistas Tabuladas**: La aplicación organiza la información en tabs que permiten al usuario alternar entre diferentes categorías como presidentes, aeropuertos y atracciones turísticas.
+- **Paginación**: Las tablas que muestran los datos incluyen botones de paginación para facilitar la navegación a través de grandes conjuntos de datos.
+- **Agrupamiento de Datos**: Los datos se agrupan y se organizan para facilitar su visualización en tablas.
+  
+## Requisitos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Node.js (v14 o superior)
+- npm (v6 o superior) o yarn (v1 o superior)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Instalación
 
-### `npm test`
+1. Clona este repositorio en tu máquina local:
+   
+    git clone https://github.com/RobinsonF/colombian_api_robinson_gutierrez.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navega a la carpeta del proyecto:
 
-### `npm run build`
+    cd colombian_api_robinson_gutierrez
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Instala las dependencias necesarias
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Despliegue
 
-### `npm run eject`
+Para desplegar la aplicación en un entorno de desarrollo:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Ejecuta el siguiente comando
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Abre tu navegador y visita http://localhost:3000 para ver la aplicación en funcionamiento.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Estructura del Proyecto
+- **/src:** Contiene los componentes de React, estilos, y archivos auxiliares.
+- **/public:** Archivos estáticos como el index.html.
+- **/README.md:** Documentación.
 
-## Learn More
+## Uso
+Una vez que la aplicación está en funcionamiento, puedes navegar entre las tabs para ver la información de presidentes, aeropuertos y atracciones turísticas. La paginación mejora la experiencia de usuario al manejar grandes volúmenes de datos.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
